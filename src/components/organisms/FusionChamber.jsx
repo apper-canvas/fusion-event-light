@@ -1,11 +1,11 @@
-import { useRef } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import ApperIcon from '../ApperIcon';
 import FeatureTitle from '../atoms/FeatureTitle';
 import WorkspaceElement from '../molecules/WorkspaceElement';
 import DiscoveryAnimation from '../atoms/DiscoveryAnimation';
 
-const FusionChamber = ({ 
+const FusionChamber = React.forwardRef(({ 
   workspaceElements, 
   handleDragOver, 
   handleWorkspaceDrop, 
@@ -13,8 +13,7 @@ const FusionChamber = ({
   handleWorkspaceElementDrop, 
   showHintMessage,
   discoveryAnimation
-}) => {
-  const workspaceRef = useRef(null);
+}, ref) => {
 
   return (
     <motion.div 
@@ -41,8 +40,8 @@ const FusionChamber = ({
         </motion.button>
       </div>
 
-      <div 
-        ref={workspaceRef}
+<div 
+        ref={ref}
         className="flex-1 relative bg-white/5 rounded-xl border-2 border-dashed border-white/30 overflow-hidden"
         onDragOver={handleDragOver}
         onDrop={handleWorkspaceDrop}
@@ -69,8 +68,10 @@ const FusionChamber = ({
 
         <DiscoveryAnimation discovery={discoveryAnimation} />
       </div>
-    </motion.div>
+</motion.div>
   );
-};
+});
+
+FusionChamber.displayName = 'FusionChamber';
 
 export default FusionChamber;

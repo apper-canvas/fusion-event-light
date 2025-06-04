@@ -27,10 +27,19 @@
     display: none;
   }
 
-  .glass-morph {
+.glass-morph {
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white; /* Ensure text is visible in glass-morph containers */
+  }
+
+  .glass-morph button {
+    color: white;
+  }
+
+  .glass-morph button:hover {
+    color: rgb(196 181 253); /* text-purple-300 */
   }
 
   .element-glow {

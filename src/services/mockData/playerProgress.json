@@ -1,0 +1,10 @@
+[
+  {
+    "id": "1",
+    "discoveredElements": ["fire", "water", "earth", "air"],
+    "totalDiscoveries": 4,
+    "hintsUsed": 0,
+    "playTime": 0,
+    "achievements": []
+  }
+]

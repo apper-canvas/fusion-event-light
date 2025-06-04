@@ -1,0 +1,110 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    @apply text-white bg-gradient-to-br from-purple-900 via-indigo-900 to-purple-800;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .glass-morph {
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .element-glow {
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+  }
+
+  .discovery-animation {
+    animation: discovery 0.8s ease-out forwards;
+  }
+
+  .float-animation {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .drag-preview {
+    transform: scale(0.9);
+    opacity: 0.8;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+  }
+}
+
+/* Custom scrollbar for webkit browsers */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(124, 58, 237, 0.5);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 58, 237, 0.7);
+}
+
+/* Particle effects */
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #F59E0B;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float-particle 6s infinite linear;
+}
+
+@keyframes float-particle {
+  0% {
+    transform: translateY(100vh) translateX(0px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) translateX(100px);
+    opacity: 0;
+  }
+}
+
+/* Toast custom styles */
+.Toastify__toast {
+  border-radius: 0.75rem;
+  backdrop-filter: blur(20px);
+}
+
+.Toastify__progress-bar {
+  background: linear-gradient(90deg, #7C3AED, #A78BFA);
+}

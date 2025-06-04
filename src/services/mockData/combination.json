@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1",
+    "element1": "fire",
+    "element2": "water",
+    "result": "steam",
+    "discovered": false
+  },
+  {
+    "id": "2",
+    "element1": "water",
+    "element2": "earth",
+    "result": "mud",
+    "discovered": false
+  },
+  {
+    "id": "3",
+    "element1": "fire",
+    "element2": "earth",
+    "result": "lava",
+    "discovered": false
+  },
+  {
+    "id": "4",
+    "element1": "water",
+    "element2": "earth",
+    "result": "plant",
+    "discovered": false
+  },
+  {
+    "id": "5",
+    "element1": "plant",
+    "element2": "earth",
+    "result": "tree",
+    "discovered": false
+  },
+  {
+    "id": "6",
+    "element1": "tree",
+    "element2": "fire",
+    "result": "wood",
+    "discovered": false
+  },
+  {
+    "id": "7",
+    "element1": "fire",
+    "element2": "earth",
+    "result": "stone",
+    "discovered": false
+  },
+  {
+    "id": "8",
+    "element1": "fire",
+    "element2": "stone",
+    "result": "metal",
+    "discovered": false
+  },
+  {
+    "id": "9",
+    "element1": "water",
+    "element2": "air",
+    "result": "ice",
+    "discovered": false
+  },
+  {
+    "id": "10",
+    "element1": "air",
+    "element2": "water",
+    "result": "cloud",
+    "discovered": false
+  },
+  {
+    "id": "11",
+    "element1": "cloud",
+    "element2": "water",
+    "result": "rain",
+    "discovered": false
+  },
+  {
+    "id": "12",
+    "element1": "ice",
+    "element2": "air",
+    "result": "snow",
+    "discovered": false
+  },
+  {
+    "id": "13",
+    "element1": "cloud",
+    "element2": "fire",
+    "result": "lightning",
+    "discovered": false
+  },
+  {
+    "id": "14",
+    "element1": "lightning",
+    "element2": "metal",
+    "result": "energy",
+    "discovered": false
+  },
+  {
+    "id": "15",
+    "element1": "energy",
+    "element2": "metal",
+    "result": "electricity",
+    "discovered": false
+  },
+  {
+    "id": "16",
+    "element1": "electricity",
+    "element2": "air",
+    "result": "light",
+    "discovered": false
+  },
+  {
+    "id": "17",
+    "element1": "lava",
+    "element2": "earth",
+    "result": "volcano",
+    "discovered": false
+  },
+  {
+    "id": "18",
+    "element1": "stone",
+    "element2": "earth",
+    "result": "mountain",
+    "discovered": false
+  },
+  {
+    "id": "19",
+    "element1": "water",
+    "element2": "water",
+    "result": "ocean",
+    "discovered": false
+  },
+  {
+    "id": "20",
+    "element1": "energy",
+    "element2": "water",
+    "result": "life",
+    "discovered": false
+  },
+  {
+    "id": "21",
+    "element1": "life",
+    "element2": "earth",
+    "result": "human",
+    "discovered": false
+  },
+  {
+    "id": "22",
+    "element1": "human",
+    "element2": "stone",
+    "result": "tool",
+    "discovered": false
+  },
+  {
+    "id": "23",
+    "element1": "wood",
+    "element2": "stone",
+    "result": "house",
+    "discovered": false
+  },
+  {
+    "id": "24",
+    "element1": "house",
+    "element2": "house",
+    "result": "city",
+    "discovered": false
+  },
+  {
+    "id": "25",
+    "element1": "human",
+    "element2": "energy",
+    "result": "time",
+    "discovered": false
+  },
+  {
+    "id": "26",
+    "element1": "air",
+    "element2": "fire",
+    "result": "space",
+    "discovered": false
+  },
+  {
+    "id": "27",
+    "element1": "space",
+    "element2": "fire",
+    "result": "star",
+    "discovered": false
+  },
+  {
+    "id": "28",
+    "element1": "steam",
+    "element2": "air",
+    "result": "cloud",
+    "discovered": false
+  },
+  {
+    "id": "29",
+    "element1": "mud",
+    "element2": "fire",
+    "result": "stone",
+    "discovered": false
+  },
+  {
+    "id": "30",
+    "element1": "ice",
+    "element2": "ice",
+    "result": "snow",
+    "discovered": false
+  }
+]

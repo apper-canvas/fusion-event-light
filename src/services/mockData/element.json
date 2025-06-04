@@ -1,0 +1,250 @@
+[
+  {
+    "id": "fire",
+    "name": "Fire",
+    "icon": "🔥",
+    "category": "basic",
+    "discovered": true,
+    "combinations": ["water", "earth", "air", "wood", "stone"]
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "icon": "💧",
+    "category": "basic",
+    "discovered": true,
+    "combinations": ["fire", "earth", "air", "plant", "ice"]
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "icon": "🌍",
+    "category": "basic",
+    "discovered": true,
+    "combinations": ["fire", "water", "air", "plant", "mountain"]
+  },
+  {
+    "id": "air",
+    "name": "Air",
+    "icon": "💨",
+    "category": "basic",
+    "discovered": true,
+    "combinations": ["fire", "water", "earth", "cloud", "wind"]
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "icon": "💨",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["cloud", "energy"]
+  },
+  {
+    "id": "mud",
+    "name": "Mud",
+    "icon": "🟫",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["brick", "pottery"]
+  },
+  {
+    "id": "lava",
+    "name": "Lava",
+    "icon": "🌋",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["obsidian", "volcano"]
+  },
+  {
+    "id": "plant",
+    "name": "Plant",
+    "icon": "🌱",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["tree", "flower", "fruit"]
+  },
+  {
+    "id": "tree",
+    "name": "Tree",
+    "icon": "🌳",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["wood", "paper", "fruit"]
+  },
+  {
+    "id": "wood",
+    "name": "Wood",
+    "icon": "🪵",
+    "category": "material",
+    "discovered": false,
+    "combinations": ["paper", "house", "boat"]
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "icon": "🪨",
+    "category": "material",
+    "discovered": false,
+    "combinations": ["tool", "house", "mountain"]
+  },
+  {
+    "id": "metal",
+    "name": "Metal",
+    "icon": "⚙️",
+    "category": "material",
+    "discovered": false,
+    "combinations": ["tool", "machine", "robot"]
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "icon": "🧊",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["glacier", "snow"]
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud",
+    "icon": "☁️",
+    "category": "weather",
+    "discovered": false,
+    "combinations": ["rain", "storm", "lightning"]
+  },
+  {
+    "id": "rain",
+    "name": "Rain",
+    "icon": "🌧️",
+    "category": "weather",
+    "discovered": false,
+    "combinations": ["rainbow", "flood", "river"]
+  },
+  {
+    "id": "snow",
+    "name": "Snow",
+    "icon": "❄️",
+    "category": "weather",
+    "discovered": false,
+    "combinations": ["snowman", "avalanche"]
+  },
+  {
+    "id": "lightning",
+    "name": "Lightning",
+    "icon": "⚡",
+    "category": "weather",
+    "discovered": false,
+    "combinations": ["energy", "electricity"]
+  },
+  {
+    "id": "energy",
+    "name": "Energy",
+    "icon": "⚡",
+    "category": "science",
+    "discovered": false,
+    "combinations": ["electricity", "plasma", "laser"]
+  },
+  {
+    "id": "electricity",
+    "name": "Electricity",
+    "icon": "🔌",
+    "category": "technology",
+    "discovered": false,
+    "combinations": ["light", "computer", "robot"]
+  },
+  {
+    "id": "light",
+    "name": "Light",
+    "icon": "💡",
+    "category": "science",
+    "discovered": false,
+    "combinations": ["rainbow", "laser", "solar"]
+  },
+  {
+    "id": "volcano",
+    "name": "Volcano",
+    "icon": "🌋",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["island", "mountain"]
+  },
+  {
+    "id": "mountain",
+    "name": "Mountain",
+    "icon": "⛰️",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["cave", "avalanche"]
+  },
+  {
+    "id": "ocean",
+    "name": "Ocean",
+    "icon": "🌊",
+    "category": "nature",
+    "discovered": false,
+    "combinations": ["wave", "salt", "fish"]
+  },
+  {
+    "id": "life",
+    "name": "Life",
+    "icon": "🧬",
+    "category": "magic",
+    "discovered": false,
+    "combinations": ["human", "animal", "bacteria"]
+  },
+  {
+    "id": "human",
+    "name": "Human",
+    "icon": "👤",
+    "category": "life",
+    "discovered": false,
+    "combinations": ["civilization", "tool", "house"]
+  },
+  {
+    "id": "tool",
+    "name": "Tool",
+    "icon": "🔨",
+    "category": "technology",
+    "discovered": false,
+    "combinations": ["machine", "weapon", "house"]
+  },
+  {
+    "id": "house",
+    "name": "House",
+    "icon": "🏠",
+    "category": "building",
+    "discovered": false,
+    "combinations": ["city", "village", "civilization"]
+  },
+  {
+    "id": "city",
+    "name": "City",
+    "icon": "🏙️",
+    "category": "building",
+    "discovered": false,
+    "combinations": ["civilization", "pollution", "skyscraper"]
+  },
+  {
+    "id": "time",
+    "name": "Time",
+    "icon": "⏰",
+    "category": "magic",
+    "discovered": false,
+    "combinations": ["clock", "history", "future"]
+  },
+  {
+    "id": "space",
+    "name": "Space",
+    "icon": "🌌",
+    "category": "science",
+    "discovered": false,
+    "combinations": ["star", "planet", "galaxy"]
+  },
+  {
+    "id": "star",
+    "name": "Star",
+    "icon": "⭐",
+    "category": "space",
+    "discovered": false,
+    "combinations": ["constellation", "sun", "galaxy"]
+  }
+]
